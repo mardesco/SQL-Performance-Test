@@ -23,7 +23,8 @@ This script assumes that you have already created the test table:
 create table test (
 id mediumint unsigned not null auto_increment, 
 name varchar(240) null, 
-data bigint null, primary key (id) 
+data bigint null, 
+primary key (id) 
 );
 */
 
